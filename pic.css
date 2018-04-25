@@ -1,1 +1,127 @@
-css
+#logo{
+	width:5vw;
+	height:5vw;
+	position:absolute;
+	background-size:cover;
+	background-image:url(https://i.imgur.com/W152Xpz.png);
+	left:8vw;
+	top:83vh;
+}
+#member{
+	width:21vw;
+	height:2.5vw;
+	position:absolute;
+	background-size:cover;
+	background-image:url(https://i.imgur.com/bk4Eu4l.png);
+	left:19vw;
+	top:17vh;
+}
+#back{
+	width:91vw;
+	height:48vw;
+	position:absolute;
+	background-size:cover;
+	background-image:url(https://i.imgur.com/NL85aJx.png);
+	left:9vw;
+	top:-3vh;
+}
+.intro{
+	width:41vw;
+	height:24vw;
+	position:absolute;
+	background-size:cover;
+	left:8vw;
+	top:25vh;
+}
+.icon{
+	width:11vw;
+	height:11vw;
+	position:absolute;
+	background-size:cover;
+}
+.gang{
+	left:24vw;
+	top:52vh;
+}
+.en{
+	left:37vw;
+	top:52vh;
+}
+.shan{
+	left:4vw;
+	top:27vh;
+}
+.hui{
+	left:17vw;
+	top:27vh;
+}
+.fish{
+	left:11vw;
+	top:52vh;
+}
+.in{
+	left:30vw;
+	top:27vh;
+}
+/*
+gang:王昱淦
+en:謝旻恩
+shan:郭憶璇
+hui:黃家輝
+fish:戴宇
+in:蘇千茵
+*/
+#gang1{
+	background-image:url(https://i.imgur.com/Ur5VmSj.png);
+}
+#gang2{
+	background-image:url(https://i.imgur.com/9SnFX3g.png);
+}
+#gang3{
+	background-image:url(https://i.imgur.com/iaD3GC0.png);
+}
+#en1{
+	background-image:url(https://i.imgur.com/gtOqgNN.png);
+}
+#en2{
+	background-image:url(https://i.imgur.com/dOHefTj.png);
+}
+#en3{
+	background-image:url(https://i.imgur.com/juIbxos.png);
+}
+#shan1{
+	background-image:url(https://i.imgur.com/rAuMtlm.png);
+}
+#shan2{
+	background-image:url(https://i.imgur.com/4fTaG1x.png);
+}
+#shan3{
+	background-image:url(https://i.imgur.com/wlWX3nP.png);
+}
+#hui1{
+	background-image:url(https://i.imgur.com/O9hJ3iD.png);
+}
+#hui2{
+	background-image:url(https://i.imgur.com/GCh9V2o.png);
+}
+#hui3{
+	background-image:url(https://i.imgur.com/d2SsIPe.png);
+}
+#fish1{
+	background-image:url(https://i.imgur.com/ZACkc6x.png);
+}
+#fish2{
+	background-image:url(https://i.imgur.com/mqnfoD4.png);
+}
+#fish3{
+	background-image:url(https://i.imgur.com/jBS3mWm.png);
+}
+#in1{
+	background-image:url(https://i.imgur.com/5B46Cow.png);
+}
+#in2{
+	background-image:url(https://i.imgur.com/GUWB66U.png);
+}
+#in3{
+	background-image:url(https://i.imgur.com/Wzn2e3N.png);
+}

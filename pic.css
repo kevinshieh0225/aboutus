@@ -1,67 +1,113 @@
+@media screen and (min-width: 1200px) {
+	
 #logo{
-	width:5vw;
-	height:5vw;
-	position:absolute;
-	background-size:cover;
-	background-image:url(https://i.imgur.com/W152Xpz.png);
-	left:8vw;
-	top:83vh;
+	width:80px;
+	height:80px;
+	background-image:url(aboutus_pic/logo.png);
+	left:5%;
+	top:82%;
 }
 #member{
-	width:21vw;
-	height:2.5vw;
-	position:absolute;
-	background-size:cover;
-	background-image:url(https://i.imgur.com/bk4Eu4l.png);
-	left:19vw;
-	top:17vh;
+	width:360px;
+	height:55px;
+	background-image:url(aboutus_pic/member.png);
+	left:1%;
+	top:15%;
 }
-#back{
-	width:91vw;
-	height:48vw;
-	position:absolute;
-	background-size:cover;
-	background-image:url(https://i.imgur.com/NL85aJx.png);
-	left:9vw;
-	top:-3vh;
+.back{
+	width:91%;
+	height:100%;
+	left:9%;
+	top:0%;
+	z-index :-1;
+}
+#member_back{
+	background-image:url(aboutus_pic/back.png);
+}
+#intro_back{
+	background-image:url(aboutus_pic/intro_back.png);
+	display:none;
+}
+.X{
+	width:40px;
+	height:43px;
+	right: 2%; top : 2.5%;
+	background-image:url(aboutus_pic/X.png);
+	z-index:4;
+	display:none;
+}
+#intro_content{
+	width:637px;
+	height:264px;
+	left: -3%; top :25%;
+	background-image:url(aboutus_pic/intro_content.png);
+	display:none;
+}
+#intro_button{
+	left: 13.8%; top : 84.5%;
+	background-image:url(aboutus_pic/intro_button.png);
+}
+#member_button{
+	left: 27%; top : 84.5%;
+	background-image:url(aboutus_pic/member_button.png);
 }
 .intro{
-	width:41vw;
-	height:24vw;
+	width:661px;
+	height:378px;
 	position:absolute;
 	background-size:cover;
-	left:8vw;
-	top:25vh;
+	left:-5%;
+	top:24%;
+	z-index:2;
+	display:none;
 }
+.size-posi{
+	background-size:cover;
+	position:absolute;
+}
+
 .icon{
-	width:11vw;
-	height:11vw;
+	width:157px;
+	height:157px;
 	position:absolute;
 	background-size:cover;
+	z-index:1;
+}
+.button{
+	width:150px;
+	height:59px;
 }
 .gang{
-	left:24vw;
-	top:52vh;
+	left:31%;
+	top:53%;
 }
 .en{
-	left:37vw;
-	top:52vh;
+	left:17%;
+	top:53%;
 }
 .shan{
-	left:4vw;
-	top:27vh;
+	left:-5%;
+	top:27%;
 }
 .hui{
-	left:17vw;
-	top:27vh;
+	left:9%;
+	top:27%;
 }
 .fish{
-	left:11vw;
-	top:52vh;
+	left:3%;
+	top:53%;
 }
 .in{
-	left:30vw;
-	top:27vh;
+	left:23%;
+	top:27%;
+}
+.show{
+	z-index: 2;
+	opacity: 0;
+}
+
+.show:hover{
+	opacity: 1;
 }
 /*
 gang:王昱淦
@@ -72,56 +118,92 @@ fish:戴宇
 in:蘇千茵
 */
 #gang1{
-	background-image:url(https://i.imgur.com/Ur5VmSj.png);
+	background-image:url(aboutus_pic/gang1.png);
 }
 #gang2{
-	background-image:url(https://i.imgur.com/9SnFX3g.png);
+	background-image:url(aboutus_pic/gang2.png);
 }
 #gang3{
-	background-image:url(https://i.imgur.com/iaD3GC0.png);
+	background-image:url(aboutus_pic/gang3.png);
 }
 #en1{
-	background-image:url(https://i.imgur.com/gtOqgNN.png);
+	background-image:url(aboutus_pic/en1.png);
 }
 #en2{
-	background-image:url(https://i.imgur.com/dOHefTj.png);
+	background-image:url(aboutus_pic/en2.png);
 }
 #en3{
-	background-image:url(https://i.imgur.com/juIbxos.png);
+	background-image:url(aboutus_pic/en3.png);
 }
 #shan1{
-	background-image:url(https://i.imgur.com/rAuMtlm.png);
+	background-image:url(aboutus_pic/shan1.png);
 }
 #shan2{
-	background-image:url(https://i.imgur.com/4fTaG1x.png);
+	background-image:url(aboutus_pic/shan2.png);
 }
 #shan3{
-	background-image:url(https://i.imgur.com/wlWX3nP.png);
+	background-image:url(aboutus_pic/shan3.png);
 }
 #hui1{
-	background-image:url(https://i.imgur.com/O9hJ3iD.png);
+	background-image:url(aboutus_pic/hui1.png);
 }
 #hui2{
-	background-image:url(https://i.imgur.com/GCh9V2o.png);
+	background-image:url(aboutus_pic/hui2.png);
 }
 #hui3{
-	background-image:url(https://i.imgur.com/d2SsIPe.png);
+	background-image:url(aboutus_pic/hui3.png);
 }
 #fish1{
-	background-image:url(https://i.imgur.com/ZACkc6x.png);
+	background-image:url(aboutus_pic/fish1.png);
 }
 #fish2{
-	background-image:url(https://i.imgur.com/mqnfoD4.png);
+	background-image:url(aboutus_pic/fish2.png);
 }
 #fish3{
-	background-image:url(https://i.imgur.com/jBS3mWm.png);
+	background-image:url(aboutus_pic/fish3.png);
 }
 #in1{
-	background-image:url(https://i.imgur.com/5B46Cow.png);
+	background-image:url(aboutus_pic/in1.png);
 }
 #in2{
-	background-image:url(https://i.imgur.com/GUWB66U.png);
+	background-image:url(aboutus_pic/in2.png);
 }
 #in3{
-	background-image:url(https://i.imgur.com/Wzn2e3N.png);
+	background-image:url(aboutus_pic/in3.png);
+}
+
+}
+/*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*/
+@media screen and (Max-width: 480px) {
+	
+#logo{
+	width:70px;
+	height:70px;
+	background-image:url(aboutus_pic/logo.png);
+	margin:auto;
+	margin-bottom:30px;
+}
+#phone_back{
+	width:330px;
+	height:456px;
+	background-image:url(aboutus_pic/phone_back.png);
+	margin:auto
+}
+.size-posi{
+	background-size:cover;
+}
 }

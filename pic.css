@@ -211,19 +211,26 @@ in:蘇千茵
 	margin:auto;
 }
 .row{
-	width:88vw;
+	width:86vw;
 	height:14vw;
 	margin:auto;
-	padding-top:3vw;
+	padding-top:2vw;
 	padding-bottom:7vw;
 }
 .size-posi{
 	background-size:cover;
 }
-
+.intro_phone{
+	width:90vw;
+	height:51vw;
+	position:absolute;
+	top:15vw;
+	left:5%;
+	display:none;
+}
 .icon_phone{
-	width:17.5vw;
-	height:17.5vw;
+	width:18.5vw;
+	height:18.5vw;
 	background-size:cover;
 	position:relative;
 }
@@ -235,12 +242,13 @@ in:蘇千茵
 	float:left;
 	margin-right:4vw;
 }
-.X{
+.X_phone{
 	width:40px;
 	height:43px;
 	right: 2%; top : 2.5%;
 	background-image:url(aboutus_pic/X.png);
 	z-index:4;
+	position:absolute;
 	display:none;
 }
 /*

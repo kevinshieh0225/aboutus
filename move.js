@@ -96,3 +96,46 @@ document.querySelector("#member_button").addEventListener("click", function(){
 // {      
 //     alert("I am an alert box!!")
 // }
+document.querySelector("#gang_icon").addEventListener("click", function(){
+    document.getElementById('gang_intro').style.display='block';
+	$('.icon_phone').hide();
+    $('.X_phone').show();
+});
+
+// 憿舐內�鉟�拍陛隞�
+document.querySelector("#en_icon").addEventListener("click", function(){
+    document.getElementById('en_intro').style.display='block';
+	$('.icon_phone').hide();
+    $('.X_phone').show();
+});
+
+document.querySelector("#in_icon").addEventListener("click", function(){
+    document.getElementById('in_intro').style.display='block';
+	$('.icon_phone').hide();
+    $('.X_phone').show();
+});
+
+document.querySelector("#fish_icon").addEventListener("click", function(){
+    document.getElementById('fish_intro').style.display='block';
+	$('.icon_phone').hide();
+    $('.X_phone').show();
+});
+
+document.querySelector("#shan_icon").addEventListener("click", function(){
+    document.getElementById('shan_intro').style.display='block';
+	$('.icon_phone').hide();
+    $('.X_phone').show();
+});
+
+document.querySelector("#hui_icon").addEventListener("click", function(){
+    document.getElementById('hui_intro').style.display='block';
+	$('.icon_phone').hide();
+    $('.X_phone').show();
+});
+
+//��𨀣�匧�衤犖隞讠晶
+$('.X_phone').click(function(){
+    $('.X_phone').hide();
+	$('.icon_phone').show();
+    $('.intro_phone').hide();
+});

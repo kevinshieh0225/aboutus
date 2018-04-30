@@ -191,19 +191,107 @@ in:蘇千茵
 @media screen and (Max-width: 480px) {
 	
 #logo{
-	width:70px;
-	height:70px;
+	width:12vw;
+	height:12vw;
 	background-image:url(aboutus_pic/logo.png);
 	margin:auto;
-	margin-bottom:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#member_phone{
+	width:34vw;
+	height:5vw;
+	background-image:url(aboutus_pic/member.png);
+	margin:auto;
 }
 #phone_back{
-	width:330px;
-	height:456px;
+	width:92vw;
+	height:128vw;
 	background-image:url(aboutus_pic/phone_back.png);
-	margin:auto
+	margin:auto;
+}
+.row{
+	width:88vw;
+	height:14vw;
+	margin:auto;
+	padding-top:3vw;
+	padding-bottom:7vw;
 }
 .size-posi{
 	background-size:cover;
 }
+
+.icon_phone{
+	width:17.5vw;
+	height:17.5vw;
+	background-size:cover;
+	position:relative;
+}
+.row1{
+	float:right;
+	margin-right:6vw;
+}
+.row2{
+	float:left;
+	margin-right:4vw;
+}
+.X{
+	width:40px;
+	height:43px;
+	right: 2%; top : 2.5%;
+	background-image:url(aboutus_pic/X.png);
+	z-index:4;
+	display:none;
+}
+/*
+gang:王昱淦
+en:謝旻恩
+shan:郭憶璇
+hui:黃家輝
+fish:戴宇
+in:蘇千茵
+*/
+#gang_icon{
+	background-image:url(aboutus_pic/gang1.png);
+}
+
+#gang_intro{
+	background-image:url(aboutus_pic/gang3.png);
+}
+#en_icon{
+	background-image:url(aboutus_pic/en1.png);
+}
+
+#en_intro{
+	background-image:url(aboutus_pic/en3.png);
+}
+#shan_icon{
+	background-image:url(aboutus_pic/shan1.png);
+}
+
+#shan_intro{
+	background-image:url(aboutus_pic/shan3.png);
+}
+#hui_icon{
+	background-image:url(aboutus_pic/hui1.png);
+}
+
+#hui_intro{
+	background-image:url(aboutus_pic/hui3.png);
+}
+#fish_icon{
+	background-image:url(aboutus_pic/fish1.png);
+}
+
+#fish_intro{
+	background-image:url(aboutus_pic/fish3.png);
+}
+#in_icon{
+	background-image:url(aboutus_pic/in1.png);
+}
+
+#in_intro{
+	background-image:url(aboutus_pic/in3.png);
+}
+
 }

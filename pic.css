@@ -1,22 +1,22 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
 	
 #logo{
-	width:80px;
-	height:80px;
+	width:9.8vh;
+	height:9.8vh;
 	background-image:url(aboutus_pic/logo.png);
 	left:5%;
 	top:82%;
 }
 #member{
-	width:360px;
-	height:55px;
+	width:44.8vh;
+	height:6.8vh;
 	background-image:url(aboutus_pic/member.png);
 	left:1%;
 	top:15%;
 }
 .back{
-	width:91%;
-	height:100%;
+	width:190vh;
+	height:100vh;
 	left:9%;
 	top:0%;
 	z-index :-1;
@@ -37,8 +37,8 @@
 	display:none;
 }
 #intro_content{
-	width:637px;
-	height:264px;
+	width:78.4vh;
+	height:32.5vh;
 	left: -3%; top :25%;
 	background-image:url(aboutus_pic/intro_content.png);
 	display:none;
@@ -52,8 +52,8 @@
 	background-image:url(aboutus_pic/member_button.png);
 }
 .intro{
-	width:661px;
-	height:378px;
+	width:85vh;
+	height:48vh;
 	position:absolute;
 	background-size:cover;
 	left:-5%;
@@ -67,39 +67,39 @@
 }
 
 .icon{
-	width:157px;
-	height:157px;
+	width:19.5vh;
+	height:19.5vh;
 	position:absolute;
 	background-size:cover;
 	z-index:1;
 }
 .button{
-	width:150px;
-	height:59px;
+	width:17.8vh;
+	height:7vh;
 }
 .gang{
 	left:31%;
-	top:53%;
+	top:54%;
 }
 .en{
 	left:17%;
-	top:53%;
+	top:54%;
 }
 .shan{
 	left:-5%;
-	top:27%;
+	top:28%;
 }
 .hui{
 	left:9%;
-	top:27%;
+	top:28%;
 }
 .fish{
 	left:3%;
-	top:53%;
+	top:54%;
 }
 .in{
 	left:23%;
-	top:27%;
+	top:28%;
 }
 .show{
 	z-index: 2;

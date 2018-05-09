@@ -1,10 +1,10 @@
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 480px) {
 	
 #logo{
 	width:9.8vh;
 	height:9.8vh;
 	background-image:url(aboutus_pic/logo.png);
-	left:5%;
+	left:11vh;
 	top:82%;
 }
 #member{
@@ -44,11 +44,11 @@
 	display:none;
 }
 #intro_button{
-	left: 13.8%; top : 84.5%;
+	left: 25vh; top : 85%;
 	background-image:url(aboutus_pic/intro_button.png);
 }
 #member_button{
-	left: 27%; top : 84.5%;
+	left: 44vh; top : 85%;
 	background-image:url(aboutus_pic/member_button.png);
 }
 .intro{
@@ -74,7 +74,7 @@
 	z-index:1;
 }
 .button{
-	width:17.8vh;
+	width:19vh;
 	height:7vh;
 }
 .gang{
@@ -205,8 +205,8 @@ in:蘇千茵
 	margin:auto;
 }
 #phone_back{
-	width:92vw;
-	height:128vw;
+	width:95vw;
+	height:132vw;
 	background-image:url(aboutus_pic/phone_back.png);
 	margin:auto;
 }
@@ -221,16 +221,16 @@ in:蘇千茵
 	background-size:cover;
 }
 .intro_phone{
-	width:90vw;
-	height:51vw;
+	width:94vw;
+	height:55vw;
 	position:absolute;
-	top:15vw;
-	left:5%;
+	top:14.5vw;
+	left:3%;
 	display:none;
 }
 .icon_phone{
-	width:18.5vw;
-	height:18.5vw;
+	width:20vw;
+	height:20vw;
 	background-size:cover;
 	position:relative;
 }
@@ -240,11 +240,11 @@ in:蘇千茵
 }
 .row2{
 	float:left;
-	margin-right:4vw;
+	margin-right:2vw;
 }
 .X_phone{
-	width:40px;
-	height:43px;
+	width:35px;
+	height:40px;
 	right: 2%; top : 2.5%;
 	background-image:url(aboutus_pic/X.png);
 	z-index:4;

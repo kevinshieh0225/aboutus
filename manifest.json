@@ -1,0 +1,12 @@
+{
+  "name": "Progressive Web App Demo - 1",
+  "short_name": "About US",
+  "start_url": "https://luffy.ee.ncku.edu.tw/~kevinshieh0225/aboutus/intro.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [{
+    "src": "aboutus_pic/logo.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
+}
